@@ -1,3 +1,8 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://nicolasbarlogis.github.io/path-to-tdd/'
+languageCode = 'fr-fr'
+title = 'Path to everyday TDD'
+theme = "docport"
+
+[params]
+color_main = "#666"
+color_second = "#95C11F"
