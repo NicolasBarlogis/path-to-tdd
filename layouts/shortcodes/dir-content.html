@@ -1,0 +1,12 @@
+{{ $root := index .Params 0 }}
+{{ range os.ReadDir $root }}
+  {{ if (and (not (eq .Name "_index.md")) .IsDir) }}
+    {{ range os.ReadDir (path.Join $root "/" .Name) }}
+    <h2>
+      {{ . }}
+    <h2>
+    <blockquote>
+    </blockquote>
+    {{ end }}
+  {{ end }}
+{{ end }}
