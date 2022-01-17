@@ -1,8 +1,7 @@
 ---
 description: ""
 title: Notions
-weight: 4
-alwaysopen: false
+weight: 1
 ---
 
 ## Entity
