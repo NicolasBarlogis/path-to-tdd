@@ -12,3 +12,6 @@ Par opposition à une entité, une value object n'est définie que par son conte
 
 ## Arrange - Act - Assert
 Méthodologie d'organisation des tests unitaires. Correspond au given - when - then en BDD. *Arrange* on prépare les données prérequises. *Act* on fait le test en lui même. *Assert* réaliser le contrôle. [Source](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
+
+## Capabilities Accelerate
+Étude ([livre](https://www.oreilly.com/library/view/accelerate/9781457191435/)) sur les entreprises efficaces en dévelopement, dont est sortie une liste de 24 *capabilities*, listant les points communs de ces entreprises efficaces. [Source](https://devopsefficiency.com/matrices.html)
