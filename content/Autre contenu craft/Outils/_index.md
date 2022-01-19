@@ -19,6 +19,9 @@ Petite lib calculant la *software dependency freshness*, soit le nombre d'année
 ## Jaeger
 Système de tracing, permettant de (notamment) générer des graph de dépendances d'un système à base de microservices. Peut servir au monitoring distribué, l'analyse en cas de bug ou pour améliorer les performances/la latence. [Voir](https://www.jaegertracing.io/)
 
+## ndepend / JArchitect
+Outils d'analyse de code, qui génére de nombreux rapport sur la qualité des projets, la dette technique ou encore des graphs de dépendances. [ndepend](https://www.ndepend.com/) [JArchitect](https://www.jarchitect.com/)
+
 
 # Design first
 ## Apicurio studio
