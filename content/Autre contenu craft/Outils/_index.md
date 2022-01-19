@@ -34,3 +34,8 @@ Plugin permettant de gérer et d'intégrer entiérrement ses chaînes de test da
 
 ## Newman
 CLI permettant de lancer en masse des appels Postman. Très utile pour du test d'API. [Voir](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
+
+
+# Corking / Mocking
+## Kafka embedded
+Cluster Kafka embarqué dans une appli Spring. Utile pour générer un Kafka réel pour faire des tests unitaires, d'intégration ou e2e. [Voir](https://github.com/leadware/kafka-embedded)
