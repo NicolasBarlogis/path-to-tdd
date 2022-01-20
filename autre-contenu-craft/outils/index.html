@@ -5,7 +5,7 @@ Outils :: Path to everyday TDD
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta name=revised content="2022-01-20T08:01:58 UTC">
+<meta name=revised content="2022-01-20T16:52:38 UTC">
 <meta name=description content>
 <title>Outils :: Path to everyday TDD</title>
 <link rel="shortcut icon" href=/path-to-tdd/images/favicon.png type=image/x-icon>
@@ -284,6 +284,10 @@ item_level_$level">
 item_level_$level">
 <a href=/path-to-tdd/autre-contenu-craft/outils/>Outils</a>
 </li>
+<li data-nav-id=https://nicolasbarlogis.github.io/path-to-tdd/autre-contenu-craft/livres/ class="dd-item
+item_level_$level">
+<a href=/path-to-tdd/autre-contenu-craft/livres/>Livres</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -315,56 +319,101 @@ Jump to Section
 </span>
 <nav id=TableOfContents>
 <ul>
+<li><a href=#pour-les-pratiques-craft>Pour les pratiques craft</a>
+<ul>
 <li><a href=#mobtime>Mobtime</a></li>
 <li><a href=#craft-challenges>Craft-Challenges</a></li>
+<li><a href=#promyze>Promyze</a></li>
 </ul>
+</li>
+<li><a href=#audit--état-des-lieux>Audit / état des lieux</a>
 <ul>
 <li><a href=#libyear>libyear</a></li>
 <li><a href=#jaeger>Jaeger</a></li>
 <li><a href=#ndepend--jarchitect>ndepend / JArchitect</a></li>
 </ul>
+</li>
+<li><a href=#design-first>Design first</a>
 <ul>
 <li><a href=#apicurio-studio>Apicurio studio</a></li>
 </ul>
+</li>
+<li><a href=#tests>Tests</a>
 <ul>
 <li><a href=#xray-pour-jira>Xray pour Jira</a></li>
 <li><a href=#newman>Newman</a></li>
+<li><a href=#specflow>Specflow</a></li>
+<li><a href=#karate>Karate</a></li>
 </ul>
+</li>
+<li><a href=#corking--mocking>Corking / Mocking</a>
 <ul>
 <li><a href=#kafka-embedded>Kafka embedded</a></li>
+</ul>
+</li>
+<li><a href=#augmentation-des-langages>Augmentation des langages</a>
+<ul>
+<li><a href=#project-lombok-java>Project Lombok (Java)</a></li>
+<li><a href=#vavr-java>Vavr (Java)</a></li>
+</ul>
+</li>
+<li><a href=#modélisation>Modélisation</a>
+<ul>
+<li><a href=#mural>Mural</a></li>
+</ul>
+</li>
 </ul>
 </nav>
 </div>
 <div class=content>
-<h1 ref=pour-les-pratiques-craft>Pour les pratiques craft</h1><a class=anchor id=pour-les-pratiques-craft></a>
-<h2 ref=mobtime>Mobtime</h2><a class=anchor id=mobtime></a>
+<h2 ref=pour-les-pratiques-craft>Pour les pratiques craft</h2><a class=anchor id=pour-les-pratiques-craft></a>
+<h3 ref=mobtime>Mobtime</h3><a class=anchor id=mobtime></a>
 <p>Outil pour gérer le timming en mob-programming. <a href=https://mobti.me/>Voir</a></p>
-<h2 ref=craft-challenges>Craft-Challenges</h2><a class=anchor id=craft-challenges></a>
+<h3 ref=craft-challenges>Craft-Challenges</h3><a class=anchor id=craft-challenges></a>
 <p>Cartes sur des concepts liés au craftmanship, pouvant servir pour divers ateliers. <a href=https://agilepartner.github.io/craft-challenges/>Voir</a></p>
-<h1 ref=audit--état-des-lieux>Audit / état des lieux</h1><a class=anchor id=audit--état-des-lieux></a>
-<h2 ref=libyear>libyear</h2><a class=anchor id=libyear></a>
+<h3 ref=promyze>Promyze</h3><a class=anchor id=promyze></a>
+<p>Outil permettant de facilement partager les bonnes pratiques au sein d&rsquo;un équipe/entreprise. Intégration dans les IDE. <a href=https://promyze.com/>Voir</a></p>
+<hr>
+<h2 ref=audit--état-des-lieux>Audit / état des lieux</h2><a class=anchor id=audit--état-des-lieux></a>
+<h3 ref=libyear>libyear</h3><a class=anchor id=libyear></a>
 <p>Petite lib calculant la <em>software dependency freshness</em>, soit le nombre d&rsquo;années d&rsquo;updates de retard sur toutes les dépendances cumulées. <a href=https://libyear.com>Voir</a></p>
-<h2 ref=jaeger>Jaeger</h2><a class=anchor id=jaeger></a>
+<h3 ref=jaeger>Jaeger</h3><a class=anchor id=jaeger></a>
 <p>Système de tracing, permettant de (notamment) générer des graph de dépendances d&rsquo;un système à base de microservices. Peut servir au monitoring distribué, l&rsquo;analyse en cas de bug ou pour améliorer les performances/la latence. <a href=https://www.jaegertracing.io/>Voir</a></p>
-<h2 ref=ndepend--jarchitect>ndepend / JArchitect</h2><a class=anchor id=ndepend--jarchitect></a>
+<h3 ref=ndepend--jarchitect>ndepend / JArchitect</h3><a class=anchor id=ndepend--jarchitect></a>
 <p>Outils d&rsquo;analyse de code, qui génére de nombreux rapport sur la qualité des projets, la dette technique ou encore des graphs de dépendances. <a href=https://www.ndepend.com/>ndepend</a> <a href=https://www.jarchitect.com/>JArchitect</a></p>
-<h1 ref=design-first>Design first</h1><a class=anchor id=design-first></a>
-<h2 ref=apicurio-studio>Apicurio studio</h2><a class=anchor id=apicurio-studio></a>
+<hr>
+<h2 ref=design-first>Design first</h2><a class=anchor id=design-first></a>
+<h3 ref=apicurio-studio>Apicurio studio</h3><a class=anchor id=apicurio-studio></a>
 <p>Editeur no-code/low-code de design d&rsquo;API REST, en OpenAPI. <a href=https://www.apicur.io/studio/>Voir</a></p>
-<h1 ref=tests>Tests</h1><a class=anchor id=tests></a>
-<h2 ref=xray-pour-jira>Xray pour Jira</h2><a class=anchor id=xray-pour-jira></a>
+<hr>
+<h2 ref=tests>Tests</h2><a class=anchor id=tests></a>
+<h3 ref=xray-pour-jira>Xray pour Jira</h3><a class=anchor id=xray-pour-jira></a>
 <p>Plugin permettant de gérer et d&rsquo;intégrer entiérrement ses chaînes de test dans Jira. <a href=https://marketplace.atlassian.com/apps/1211769/xray-test-management-for-jira>Voir</a></p>
-<h2 ref=newman>Newman</h2><a class=anchor id=newman></a>
+<h3 ref=newman>Newman</h3><a class=anchor id=newman></a>
 <p>CLI permettant de lancer en masse des appels Postman. Très utile pour du test d&rsquo;API. <a href=https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/>Voir</a></p>
-<h1 ref=corking--mocking>Corking / Mocking</h1><a class=anchor id=corking--mocking></a>
-<h2 ref=kafka-embedded>Kafka embedded</h2><a class=anchor id=kafka-embedded></a>
+<h3 ref=specflow>Specflow</h3><a class=anchor id=specflow></a>
+<p>Framework .NET pour du test BDD/E2E. Permet de faire l&rsquo;intégration des Gherkin et l&rsquo;intégration dans les CI/CD. <a href=https://specflow.org/>Voir</a></p>
+<h3 ref=karate>Karate</h3><a class=anchor id=karate></a>
+<p>Lib java unifiée d&rsquo;automatisation de test. Permet de faire les tests d&rsquo;API, des mocks, du performance testing ou des tests d&rsquo;interfaces. <a href=https://github.com/karatelabs/karate>Voir</a></p>
+<hr>
+<h2 ref=corking--mocking>Corking / Mocking</h2><a class=anchor id=corking--mocking></a>
+<h3 ref=kafka-embedded>Kafka embedded</h3><a class=anchor id=kafka-embedded></a>
 <p>Cluster Kafka embarqué dans une appli Spring. Utile pour générer un Kafka réel pour faire des tests unitaires, d&rsquo;intégration ou e2e. <a href=https://github.com/leadware/kafka-embedded>Voir</a></p>
+<hr>
+<h2 ref=augmentation-des-langages>Augmentation des langages</h2><a class=anchor id=augmentation-des-langages></a>
+<h3 ref=project-lombok-java>Project Lombok (Java)</h3><a class=anchor id=project-lombok-java></a>
+<p>Annotations Java pour automatiser la génération de builder, getters et setters à la compilation. <a href=https://projectlombok.org/>Voir</a></p>
+<h3 ref=vavr-java>Vavr (Java)</h3><a class=anchor id=vavr-java></a>
+<p>Librairie fonctionnelle pour Java. <a href=https://www.vavr.io/>Voir</a></p>
+<h2 ref=modélisation>Modélisation</h2><a class=anchor id=modélisation></a>
+<h3 ref=mural>Mural</h3><a class=anchor id=mural></a>
+<p>Outil similaire à Miro, proposant des boards collaboratifs. <a href=https://www.mural.co/>Voir</a></p>
 </div>
 <div class=chevrons>
-<a class=next href=/path-to-tdd/autre-contenu-craft/notions/ title=Notions style=margin-right:0>
+<a class=next href=/path-to-tdd/autre-contenu-craft/livres/ title=Livres style=margin-right:0>
 <div>
 <p>Next page</p>
-<label>Notions</label>
+<label>Livres</label>
 </div>
 <i class="fas fa-arrow-right" style=font-size:1.7em></i></a>
 </div>
@@ -379,23 +428,49 @@ Jump to Section
 </nav>
 <nav id=TableOfContents>
 <ul>
+<li><a href=#pour-les-pratiques-craft>Pour les pratiques craft</a>
+<ul>
 <li><a href=#mobtime>Mobtime</a></li>
 <li><a href=#craft-challenges>Craft-Challenges</a></li>
+<li><a href=#promyze>Promyze</a></li>
 </ul>
+</li>
+<li><a href=#audit--état-des-lieux>Audit / état des lieux</a>
 <ul>
 <li><a href=#libyear>libyear</a></li>
 <li><a href=#jaeger>Jaeger</a></li>
 <li><a href=#ndepend--jarchitect>ndepend / JArchitect</a></li>
 </ul>
+</li>
+<li><a href=#design-first>Design first</a>
 <ul>
 <li><a href=#apicurio-studio>Apicurio studio</a></li>
 </ul>
+</li>
+<li><a href=#tests>Tests</a>
 <ul>
 <li><a href=#xray-pour-jira>Xray pour Jira</a></li>
 <li><a href=#newman>Newman</a></li>
+<li><a href=#specflow>Specflow</a></li>
+<li><a href=#karate>Karate</a></li>
 </ul>
+</li>
+<li><a href=#corking--mocking>Corking / Mocking</a>
 <ul>
 <li><a href=#kafka-embedded>Kafka embedded</a></li>
+</ul>
+</li>
+<li><a href=#augmentation-des-langages>Augmentation des langages</a>
+<ul>
+<li><a href=#project-lombok-java>Project Lombok (Java)</a></li>
+<li><a href=#vavr-java>Vavr (Java)</a></li>
+</ul>
+</li>
+<li><a href=#modélisation>Modélisation</a>
+<ul>
+<li><a href=#mural>Mural</a></li>
+</ul>
+</li>
 </ul>
 </nav>
 </div>
