@@ -23,6 +23,8 @@ Principe d'architecture séparant les query (lecture) des commandes (écriture).
 ### Aggregate Design Canvas
 CAnvas aidant à cadrer un aggrégat dans le cadre de la modélisation d'un domaine (DDD). [Source](https://github.com/ddd-crew/aggregate-design-canvas)
 
+---
+
 ## Testing
 ### Arrange - Act - Assert (AAA)
 Méthodologie d'organisation des tests unitaires. Correspond au given - when - then en BDD. *Arrange* on prépare les données prérequises. *Act* on fait le test en lui même. *Assert* réaliser le contrôle. [Source](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
