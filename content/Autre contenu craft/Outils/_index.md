@@ -44,11 +44,20 @@ CLI permettant de lancer en masse des appels Postman. Très utile pour du test d
 ## Specflow
 Framework .NET pour du test BDD/E2E. Permet de faire l'intégration des Gherkin et l'intégration dans les CI/CD. [Voir](https://specflow.org/)
 
+## Karate
+Lib java unifiée d'automatisation de test. Permet de faire les tests d'API, des mocks, du performance testing ou des tests d'interfaces. [Voir](https://github.com/karatelabs/karate)
+
 ---
 
 # Corking / Mocking
 ## Kafka embedded
 Cluster Kafka embarqué dans une appli Spring. Utile pour générer un Kafka réel pour faire des tests unitaires, d'intégration ou e2e. [Voir](https://github.com/leadware/kafka-embedded)
+
+---
+
+# Augmentation des langages
+## Project Lombok
+Annotations Java pour automatiser la génération de builder, getters et setters à la compilation. [Voir](https://projectlombok.org/)
 
 # Modélisation
 ## Mural
