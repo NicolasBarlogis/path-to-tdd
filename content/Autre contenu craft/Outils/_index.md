@@ -56,8 +56,11 @@ Cluster Kafka embarqué dans une appli Spring. Utile pour générer un Kafka ré
 ---
 
 # Augmentation des langages
-## Project Lombok
+## Project Lombok (Java)
 Annotations Java pour automatiser la génération de builder, getters et setters à la compilation. [Voir](https://projectlombok.org/)
+
+## Vavr (Java)
+Librairie fonctionnelle pour Java. [Voir](https://www.vavr.io/)
 
 # Modélisation
 ## Mural
