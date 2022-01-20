@@ -39,4 +39,4 @@ Approche visant à améliorer la technique des développeurs (coder mieux, micro
 Étude ([livre](https://www.oreilly.com/library/view/accelerate/9781457191435/)) sur les entreprises efficaces en dévelopement, dont est sortie une liste de 24 *capabilities*, listant les points communs de ces entreprises efficaces. [Source](https://devopsefficiency.com/matrices.html)
 
 ### Spotify Health check
-Méthode d'assessment d'équipe, pouvant servir pour évaluder leur maturité sur certaines pratiques.
+Méthode d'assessment d'équipe, pouvant servir pour évaluder leur maturité sur certaines pratiques. [Source](https://engineering.atspotify.com/2014/09/16/squad-health-check-model/)
