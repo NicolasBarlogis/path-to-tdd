@@ -11,6 +11,9 @@ Une entité est définie comme ayant une identité, en plus de contenir des donn
 ## Value Object
 Par opposition à une entité, une value object n'est définie que par son contenu. Elle est ainsi inmutable, car changer le contenu faire que le value object n'est plus le même. [Source](https://martinfowler.com/bliki/ValueObject.html)
 
+## Event Sourcing
+Pattern qui porpose de se concentrer sur la séquence de changement de l'état d'une application/d'un composant plutôt que de se contenter de l'état actuel/final. [Source](https://blog.engineering.publicissapient.fr/2017/01/16/event-sourcing-comprendre-les-bases-dun-systeme-evenementiel/#:~:text=Qu'est%2Dce%20que%20l,%C3%A9tat%20o%C3%B9%20elle%20se%20trouve.)
+
 ---
 
 # Testing
