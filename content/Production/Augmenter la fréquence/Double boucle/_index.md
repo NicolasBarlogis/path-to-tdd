@@ -9,6 +9,8 @@ Aussi connue comme le **Outside-In TDD**, la double boucle consiste ajouter un c
 On commence par écrire un test end-to-end qui échoue, puis on développe en TDD classique le code nécessaire à ce que le test E2E passe, puis on recommence.
 <!--more-->
 
+![Double boucle](/path-to-tdd/img/production/double-boucle.png)
+
 ---
 ## Sources
  * Justice, J (201?) *'Overview of Outside-In TDD'*.
