@@ -17,8 +17,11 @@ Pattern qui porpose de se concentrer sur la séquence de changement de l'état d
 ---
 
 # Testing
-## Arrange - Act - Assert
+## Arrange - Act - Assert (AAA)
 Méthodologie d'organisation des tests unitaires. Correspond au given - when - then en BDD. *Arrange* on prépare les données prérequises. *Act* on fait le test en lui même. *Assert* réaliser le contrôle. [Source](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
+
+## Test && commit || revert (TCR)
+Approche visant à améliorer la technique des développeurs (coder mieux, micro-incréments, etc...). Automatiquement ou non, à chaque fois que les tests sont joués, si ils passent le code est commité, sinon on revert et il faut recommencer [Source](https://blog.myagilepartner.fr/index.php/2019/02/18/tests-tcr-test-commit-revert/)
 
 ---
 
