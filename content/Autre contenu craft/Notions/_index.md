@@ -21,7 +21,7 @@ Principe d'architecture séparant les query (lecture) des commandes (écriture).
 
 ## Canvas
 ### Aggregate Design Canvas
-CAnvas aidant à cadrer un aggrégat dans le cadre de la modélisation d'un domaine (DDD). [Source](https://github.com/ddd-crew/aggregate-design-canvas)
+Canvas aidant à cadrer un aggrégat dans le cadre de la modélisation d'un domaine (DDD). [Source](https://github.com/ddd-crew/aggregate-design-canvas)
 
 ---
 
