@@ -48,3 +48,10 @@ Approche visant à améliorer la technique des développeurs (coder mieux, micro
 
 ### Spotify Health check
 Méthode d'assessment d'équipe, pouvant servir pour évaluder leur maturité sur certaines pratiques. [Source](https://engineering.atspotify.com/2014/09/16/squad-health-check-model/)
+
+
+---
+
+## Bonnes pratiques
+### Règles qualité web Opquast
+Ensemble de centaines de bonnes pratiques web, dans un format digeste. [Source](https://checklists.opquast.com/fr/assurance-qualite-web/)
