@@ -5,7 +5,7 @@ Notions :: Path to everyday TDD
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta name=revised content="2022-01-20T16:52:38 UTC">
+<meta name=revised content="2022-01-21T16:46:42 UTC">
 <meta name=description content>
 <title>Notions :: Path to everyday TDD</title>
 <link rel="shortcut icon" href=/path-to-tdd/images/favicon.png type=image/x-icon>
@@ -288,6 +288,10 @@ item_level_$level">
 item_level_$level">
 <a href=/path-to-tdd/autre-contenu-craft/livres/>Livres</a>
 </li>
+<li data-nav-id=https://nicolasbarlogis.github.io/path-to-tdd/autre-contenu-craft/pr%C3%A9sentation/ class="dd-item
+item_level_$level">
+<a href=/path-to-tdd/autre-contenu-craft/pr%C3%A9sentation/>Présentations</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -330,6 +334,8 @@ Jump to Section
 <li><a href=#canvas>Canvas</a>
 <ul>
 <li><a href=#aggregate-design-canvas>Aggregate Design Canvas</a></li>
+<li><a href=#suppliers-inputs-process-outputs-customers-sipoc>Suppliers, Inputs, Process, Outputs, Customers (SIPOC)</a></li>
+<li><a href=#value-stream-mapping-vsm>Value Stream Mapping (VSM)</a></li>
 </ul>
 </li>
 <li><a href=#testing>Testing</a>
@@ -342,6 +348,16 @@ Jump to Section
 <ul>
 <li><a href=#capabilities-accelerate>Capabilities Accelerate</a></li>
 <li><a href=#spotify-health-check>Spotify Health check</a></li>
+</ul>
+</li>
+<li><a href=#kpis>KPIs</a>
+<ul>
+<li><a href=#defect-removal-efficiency-dre>Defect Removal Efficiency (DRE)</a></li>
+</ul>
+</li>
+<li><a href=#bonnes-pratiques>Bonnes pratiques</a>
+<ul>
+<li><a href=#règles-qualité-web-opquast>Règles qualité web Opquast</a></li>
 </ul>
 </li>
 </ul>
@@ -361,6 +377,12 @@ Jump to Section
 <h2 ref=canvas>Canvas</h2><a class=anchor id=canvas></a>
 <h3 ref=aggregate-design-canvas>Aggregate Design Canvas</h3><a class=anchor id=aggregate-design-canvas></a>
 <p>Canvas aidant à cadrer un aggrégat dans le cadre de la modélisation d&rsquo;un domaine (DDD). <a href=https://github.com/ddd-crew/aggregate-design-canvas>Source</a></p>
+<h3 ref=suppliers-inputs-process-outputs-customers-sipoc>Suppliers, Inputs, Process, Outputs, Customers (SIPOC)</h3><a class=anchor id=suppliers-inputs-process-outputs-customers-sipoc></a>
+<p>Diagramme matérialisant un process business. Assez haut niveau.
+<a href=https://searchcio.techtarget.com/definition/SIPOC-diagram-suppliers-inputs-process-outputs-customers#>Source</a></p>
+<h3 ref=value-stream-mapping-vsm>Value Stream Mapping (VSM)</h3><a class=anchor id=value-stream-mapping-vsm></a>
+<p>Outil qui recense visuellement l’ensemble des activités, celles à valeur ajoutée (VA) et celles à non valeur ajoutée (NVA), nécessaires à la production.
+<a href=https://www.manager-go.com/organisation-entreprise/articles/vsm>Source</a></p>
 <hr>
 <h2 ref=testing>Testing</h2><a class=anchor id=testing></a>
 <h3 ref=arrange---act---assert-aaa>Arrange - Act - Assert (AAA)</h3><a class=anchor id=arrange---act---assert-aaa></a>
@@ -373,6 +395,14 @@ Jump to Section
 <p>Étude (<a href=https://www.oreilly.com/library/view/accelerate/9781457191435/>livre</a>) sur les entreprises efficaces en dévelopement, dont est sortie une liste de 24 <em>capabilities</em>, listant les points communs de ces entreprises efficaces. <a href=https://devopsefficiency.com/matrices.html>Source</a></p>
 <h3 ref=spotify-health-check>Spotify Health check</h3><a class=anchor id=spotify-health-check></a>
 <p>Méthode d&rsquo;assessment d&rsquo;équipe, pouvant servir pour évaluder leur maturité sur certaines pratiques. <a href=https://engineering.atspotify.com/2014/09/16/squad-health-check-model/>Source</a></p>
+<hr>
+<h2 ref=kpis>KPIs</h2><a class=anchor id=kpis></a>
+<h3 ref=defect-removal-efficiency-dre>Defect Removal Efficiency (DRE)</h3><a class=anchor id=defect-removal-efficiency-dre></a>
+<p>Indicde du nombre de problèmes detectés en production par rapport au nombre total de problèmes detectés. <a href=https://performance-objectives.com/kpi-defect-removal-efficiency-dre/>Source</a></p>
+<hr>
+<h2 ref=bonnes-pratiques>Bonnes pratiques</h2><a class=anchor id=bonnes-pratiques></a>
+<h3 ref=règles-qualité-web-opquast>Règles qualité web Opquast</h3><a class=anchor id=règles-qualité-web-opquast></a>
+<p>Ensemble de centaines de bonnes pratiques web, dans un format digeste. <a href=https://checklists.opquast.com/fr/assurance-qualite-web/>Source</a>. <a href=https://checklists.opquast.com/fr/assurance-qualite-web/download/>Autres checklists Opquast</a></p>
 </div>
 <div class=chevrons>
 <a class=next href=/path-to-tdd/autre-contenu-craft/outils/ title=Outils style=margin-right:0>
@@ -404,6 +434,8 @@ Jump to Section
 <li><a href=#canvas>Canvas</a>
 <ul>
 <li><a href=#aggregate-design-canvas>Aggregate Design Canvas</a></li>
+<li><a href=#suppliers-inputs-process-outputs-customers-sipoc>Suppliers, Inputs, Process, Outputs, Customers (SIPOC)</a></li>
+<li><a href=#value-stream-mapping-vsm>Value Stream Mapping (VSM)</a></li>
 </ul>
 </li>
 <li><a href=#testing>Testing</a>
@@ -416,6 +448,16 @@ Jump to Section
 <ul>
 <li><a href=#capabilities-accelerate>Capabilities Accelerate</a></li>
 <li><a href=#spotify-health-check>Spotify Health check</a></li>
+</ul>
+</li>
+<li><a href=#kpis>KPIs</a>
+<ul>
+<li><a href=#defect-removal-efficiency-dre>Defect Removal Efficiency (DRE)</a></li>
+</ul>
+</li>
+<li><a href=#bonnes-pratiques>Bonnes pratiques</a>
+<ul>
+<li><a href=#règles-qualité-web-opquast>Règles qualité web Opquast</a></li>
 </ul>
 </li>
 </ul>

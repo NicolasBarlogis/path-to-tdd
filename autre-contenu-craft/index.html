@@ -5,7 +5,7 @@ Autre contenu craftmanship :: Path to everyday TDD
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta name=revised content="2022-01-20T16:52:38 UTC">
+<meta name=revised content="2022-01-21T16:46:42 UTC">
 <meta name=description content>
 <title>Autre contenu craftmanship :: Path to everyday TDD</title>
 <link rel="shortcut icon" href=/path-to-tdd/images/favicon.png type=image/x-icon>
@@ -288,6 +288,10 @@ item_level_$level">
 item_level_$level">
 <a href=/path-to-tdd/autre-contenu-craft/livres/>Livres</a>
 </li>
+<li data-nav-id=https://nicolasbarlogis.github.io/path-to-tdd/autre-contenu-craft/pr%C3%A9sentation/ class="dd-item
+item_level_$level">
+<a href=/path-to-tdd/autre-contenu-craft/pr%C3%A9sentation/>Présentations</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -300,17 +304,12 @@ item_level_$level">
 Home
 </a>
 </li>
-<li>
-<a class=text-link href=/path-to-tdd/autre-contenu-craft/>
-Autre contenu craftmanship
-</a>
-</li>
 <li class=active>
-Notions
+Autre contenu craftmanship
 </li>
 </ol>
 </nav>
-<h1>Notions</h1>
+<h1>Autre contenu craftmanship</h1>
 <div class=jump-to-section>
 <span onclick="$h=$(this),$h.next('nav').slideToggle(100,function(){$h.children('i').attr('class',function(){return $h.next('nav').is(':visible')?'fas fa-chevron-down':'fas fa-chevron-right'})})">
 <span class="fas fa-align-right"></span>
@@ -319,66 +318,37 @@ Jump to Section
 </span>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#design--architecture>Design / architecture</a>
-<ul>
-<li><a href=#entity>Entity</a></li>
-<li><a href=#value-object>Value Object</a></li>
-<li><a href=#event-sourcing>Event Sourcing</a></li>
-<li><a href=#command-query-responsibility-segregation-cqrs>Command Query Responsibility Segregation (CQRS)</a></li>
-</ul>
-</li>
-<li><a href=#canvas>Canvas</a>
-<ul>
-<li><a href=#aggregate-design-canvas>Aggregate Design Canvas</a></li>
-</ul>
-</li>
-<li><a href=#testing>Testing</a>
-<ul>
-<li><a href=#arrange---act---assert-aaa>Arrange - Act - Assert (AAA)</a></li>
-<li><a href=#test--commit--revert-tcr>Test && commit || revert (TCR)</a></li>
-</ul>
-</li>
-<li><a href=#modèles-de-maturité>Modèles de maturité</a>
-<ul>
-<li><a href=#capabilities-accelerate>Capabilities Accelerate</a></li>
-<li><a href=#spotify-health-check>Spotify Health check</a></li>
-</ul>
-</li>
+<li><a href=#le-manifeste-du-software-craftmanshiphttpsmanifestosoftwarecraftsmanshiporg><a href=https://manifesto.softwarecraftsmanship.org/>Le manifeste du Software Craftmanship</a></a></li>
+<li><a href=#mind-maps-de-notions-craft>Mind-maps de notions craft</a></li>
 </ul>
 </nav>
 </div>
 <div class=content>
-<h2 ref=design--architecture>Design / architecture</h2><a class=anchor id=design--architecture></a>
-<h3 ref=entity>Entity</h3><a class=anchor id=entity></a>
-<p>Une entité est définie comme ayant une identité, en plus de contenir des données. Modifie le contenu d&rsquo;une entité ne change pas forcément son identité (ex: changement @ email d&rsquo;un user). <a href=http://www.informatix.fr/articles/conception/valueobject-qu-est-ce-que-c-est-192>Source</a></p>
-<h3 ref=value-object>Value Object</h3><a class=anchor id=value-object></a>
-<p>Par opposition à une entité, une value object n&rsquo;est définie que par son contenu. Elle est ainsi inmutable, car changer le contenu faire que le value object n&rsquo;est plus le même. <a href=https://martinfowler.com/bliki/ValueObject.html>Source</a></p>
-<h3 ref=event-sourcing>Event Sourcing</h3><a class=anchor id=event-sourcing></a>
-<p>Pattern qui porpose de se concentrer sur la séquence de changement de l&rsquo;état d&rsquo;une application/d&rsquo;un composant plutôt que de se contenter de l&rsquo;état actuel/final. <a href="https://blog.engineering.publicissapient.fr/2017/01/16/event-sourcing-comprendre-les-bases-dun-systeme-evenementiel/#:~:text=Qu'est%2Dce%20que%20l,%C3%A9tat%20o%C3%B9%20elle%20se%20trouve.">Source</a></p>
-<h3 ref=command-query-responsibility-segregation-cqrs>Command Query Responsibility Segregation (CQRS)</h3><a class=anchor id=command-query-responsibility-segregation-cqrs></a>
-<p>Principe d&rsquo;architecture séparant les query (lecture) des commandes (écriture). Cela permet nottamment de découpler les deux fonctions. <a href=https://www.insidegroup.fr/actualites/cqrs/>Source</a></p>
-<hr>
-<h2 ref=canvas>Canvas</h2><a class=anchor id=canvas></a>
-<h3 ref=aggregate-design-canvas>Aggregate Design Canvas</h3><a class=anchor id=aggregate-design-canvas></a>
-<p>Canvas aidant à cadrer un aggrégat dans le cadre de la modélisation d&rsquo;un domaine (DDD). <a href=https://github.com/ddd-crew/aggregate-design-canvas>Source</a></p>
-<hr>
-<h2 ref=testing>Testing</h2><a class=anchor id=testing></a>
-<h3 ref=arrange---act---assert-aaa>Arrange - Act - Assert (AAA)</h3><a class=anchor id=arrange---act---assert-aaa></a>
-<p>Méthodologie d&rsquo;organisation des tests unitaires. Correspond au given - when - then en BDD. <em>Arrange</em> on prépare les données prérequises. <em>Act</em> on fait le test en lui même. <em>Assert</em> réaliser le contrôle. <a href=https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/>Source</a></p>
-<h3 ref=test--commit--revert-tcr>Test && commit || revert (TCR)</h3><a class=anchor id=test--commit--revert-tcr></a>
-<p>Approche visant à améliorer la technique des développeurs (coder mieux, micro-incréments, etc&mldr;). Automatiquement ou non, à chaque fois que les tests sont joués, si ils passent le code est commité, sinon on revert et il faut recommencer <a href=https://blog.myagilepartner.fr/index.php/2019/02/18/tests-tcr-test-commit-revert/>Source</a></p>
-<hr>
-<h2 ref=modèles-de-maturité>Modèles de maturité</h2><a class=anchor id=modèles-de-maturité></a>
-<h3 ref=capabilities-accelerate>Capabilities Accelerate</h3><a class=anchor id=capabilities-accelerate></a>
-<p>Étude (<a href=https://www.oreilly.com/library/view/accelerate/9781457191435/>livre</a>) sur les entreprises efficaces en dévelopement, dont est sortie une liste de 24 <em>capabilities</em>, listant les points communs de ces entreprises efficaces. <a href=https://devopsefficiency.com/matrices.html>Source</a></p>
-<h3 ref=spotify-health-check>Spotify Health check</h3><a class=anchor id=spotify-health-check></a>
-<p>Méthode d&rsquo;assessment d&rsquo;équipe, pouvant servir pour évaluder leur maturité sur certaines pratiques. <a href=https://engineering.atspotify.com/2014/09/16/squad-health-check-model/>Source</a></p>
+<h2 ref=le-manifeste-du-software-craftmanshiphttpsmanifestosoftwarecraftsmanshiporg><a href=https://manifesto.softwarecraftsmanship.org/>Le manifeste du Software Craftmanship</a></h2><a class=anchor id=le-manifeste-du-software-craftmanshiphttpsmanifestosoftwarecraftsmanshiporg></a>
+<p>En tant qu’aspirants Artisans du Logiciel, nous relevons le niveau du développement professionnel de logiciels par la pratique et en aidant les autres à acquérir le savoir-faire. Grâce à ce travail, nous avons appris à apprécier :</p>
+<ul>
+<li>Pas seulement des logiciels opérationnels,<br>
+mais aussi des logiciels bien conçus.</li>
+<li>Pas seulement l&rsquo;adaptation aux changements,<br>
+mais aussi l&rsquo;ajout constant de la valeur.</li>
+<li>Pas seulement les individus et leurs interactions,<br>
+mais aussi une communauté de professionnels.</li>
+<li>Pas seulement la collaboration avec les clients,<br>
+mais aussi des partenariats productifs.</li>
+</ul>
+<p>C&rsquo;est à dire qu&rsquo;en recherchant les éléments de gauche, nous avons trouvé que les éléments de droite sont indispensables.</p>
+<h2 ref=mind-maps-de-notions-craft>Mind-maps de notions craft</h2><a class=anchor id=mind-maps-de-notions-craft></a>
+<p><img src=/path-to-tdd/img/autre/mind-map-1.jpg alt="Mind map craft 1"></p>
+<p><img src=/path-to-tdd/img/autre/mind-map-2.jpg alt="Mind map craft 2">
+<script src=https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script>const images=Array.from(document.querySelectorAll("img"));images.forEach(a=>{mediumZoom(a,{margin:0,scrollOffset:200})})</script>
+<style type=text/css>.medium-zoom-overlay,.medium-zoom-image--opened{z-index:999}</style></p>
 </div>
 <div class=chevrons>
-<a class=next href=/path-to-tdd/autre-contenu-craft/outils/ title=Outils style=margin-right:0>
+<a class=next href=/path-to-tdd/autre-contenu-craft/notions/ title=Notions style=margin-right:0>
 <div>
 <p>Next page</p>
-<label>Outils</label>
+<label>Notions</label>
 </div>
 <i class="fas fa-arrow-right" style=font-size:1.7em></i></a>
 </div>
@@ -391,7 +361,12 @@ Jump to Section
 <li><a href=/path-to-tdd/autre-contenu-craft/>Autre contenu craftmanship</a></li>
 </ul>
 </nav>
-<nav id=TableOfContents></nav>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#le-manifeste-du-software-craftmanshiphttpsmanifestosoftwarecraftsmanshiporg><a href=https://manifesto.softwarecraftsmanship.org/>Le manifeste du Software Craftmanship</a></a></li>
+<li><a href=#mind-maps-de-notions-craft>Mind-maps de notions craft</a></li>
+</ul>
+</nav>
 </div>
 <div class=Actions>
 <nav>
