@@ -23,6 +23,14 @@ Principe d'architecture séparant les query (lecture) des commandes (écriture).
 ### Aggregate Design Canvas
 Canvas aidant à cadrer un aggrégat dans le cadre de la modélisation d'un domaine (DDD). [Source](https://github.com/ddd-crew/aggregate-design-canvas)
 
+### Suppliers, Inputs, Process, Outputs, Customers (SIPOC)
+Diagramme matérialisant un process business. Assez haut niveau.
+[Source](https://searchcio.techtarget.com/definition/SIPOC-diagram-suppliers-inputs-process-outputs-customers#)
+
+### Value Stream Mapping (VSM)
+Outil qui recense visuellement l’ensemble des activités, celles à valeur ajoutée (VA) et celles à non valeur ajoutée (NVA), nécessaires à la production.
+[Source](https://www.manager-go.com/organisation-entreprise/articles/vsm)
+
 ---
 
 ## Testing
