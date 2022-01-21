@@ -51,6 +51,12 @@ Méthode d'assessment d'équipe, pouvant servir pour évaluder leur maturité su
 
 ---
 
+## KPIs
+### Defect Removal Efficiency (DRE)
+Indicde du nombre de problèmes detectés en production par rapport au nombre total de problèmes detectés. [Source](https://performance-objectives.com/kpi-defect-removal-efficiency-dre/)
+
+---
+
 ## Bonnes pratiques
 ### Règles qualité web Opquast
 Ensemble de centaines de bonnes pratiques web, dans un format digeste. [Source](https://checklists.opquast.com/fr/assurance-qualite-web/). [Autres checklists Opquast](https://checklists.opquast.com/fr/assurance-qualite-web/download/)
