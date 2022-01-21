@@ -9,4 +9,4 @@ Ensemble de 9 règles servant à s'exercer à une meilleure écriture du code or
 ---
 ## Sources
  * Durand, W (2013) *'Object Calisthenics'*.
-  [Voir l'article](https://blog.adrianbolboaca.ro/2017/09/tdd-as-if-you-meant-it-refactor-primitives-to-concepts-episode-3/) (consulté le 17 décembre 2021)
+  [Voir l'article](https://blog.adrianbolboaca.ro/2017/09/tdd-as-if-you-meant-it-refactor-primitives-to-concepts-episode-3/) (consulté le 20 janvier 2022)

@@ -20,6 +20,9 @@ Outil permettant de facilement partager les bonnes pratiques au sein d'un équip
 ### libyear
 Petite lib calculant la *software dependency freshness*, soit le nombre d'années d'updates de retard sur toutes les dépendances cumulées. [Voir](https://libyear.com)
 
+##### dependabot
+Petit bot qui créer des branches pour tenter automatiquement de mettre à jour des dépendances (en validant avec les tests/étapes de la CI). Sympa pour corrections après libyear. [Voir](https://github.com/dependabot)
+
 ### Jaeger
 Système de tracing, permettant de (notamment) générer des graph de dépendances d'un système à base de microservices. Peut servir au monitoring distribué, l'analyse en cas de bug ou pour améliorer les performances/la latence. [Voir](https://www.jaegertracing.io/)
 

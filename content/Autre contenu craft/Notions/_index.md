@@ -23,6 +23,14 @@ Principe d'architecture séparant les query (lecture) des commandes (écriture).
 ### Aggregate Design Canvas
 Canvas aidant à cadrer un aggrégat dans le cadre de la modélisation d'un domaine (DDD). [Source](https://github.com/ddd-crew/aggregate-design-canvas)
 
+### Suppliers, Inputs, Process, Outputs, Customers (SIPOC)
+Diagramme matérialisant un process business. Assez haut niveau.
+[Source](https://searchcio.techtarget.com/definition/SIPOC-diagram-suppliers-inputs-process-outputs-customers#)
+
+### Value Stream Mapping (VSM)
+Outil qui recense visuellement l’ensemble des activités, celles à valeur ajoutée (VA) et celles à non valeur ajoutée (NVA), nécessaires à la production.
+[Source](https://www.manager-go.com/organisation-entreprise/articles/vsm)
+
 ---
 
 ## Testing
@@ -40,3 +48,15 @@ Approche visant à améliorer la technique des développeurs (coder mieux, micro
 
 ### Spotify Health check
 Méthode d'assessment d'équipe, pouvant servir pour évaluder leur maturité sur certaines pratiques. [Source](https://engineering.atspotify.com/2014/09/16/squad-health-check-model/)
+
+---
+
+## KPIs
+### Defect Removal Efficiency (DRE)
+Indicde du nombre de problèmes detectés en production par rapport au nombre total de problèmes detectés. [Source](https://performance-objectives.com/kpi-defect-removal-efficiency-dre/)
+
+---
+
+## Bonnes pratiques
+### Règles qualité web Opquast
+Ensemble de centaines de bonnes pratiques web, dans un format digeste. [Source](https://checklists.opquast.com/fr/assurance-qualite-web/). [Autres checklists Opquast](https://checklists.opquast.com/fr/assurance-qualite-web/download/)
