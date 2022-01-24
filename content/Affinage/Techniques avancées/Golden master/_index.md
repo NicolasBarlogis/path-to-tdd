@@ -9,6 +9,8 @@ Le **Golden Master** est une méthode de refactoring de code dépourvu de tests.
 Ces tests servent de base pour s'assurer de la non régression du refactoring.
 <!--more-->
 
+Une méthode d'application du Golden Master est l'utilisation du [Property Base Testing](/path-to-tdd/affinage/approches-spécifiques/property-based-testing/). On passe l'ancienne implémentation en propriété testée, avec pour assertion de comparer le résultat de l'ancienne implémentation (du test), avec la nouvelle implémentation.
+
 ---
 ## Sources
  * Badinier, G (201?) *'Tout ce qu’il faut savoir sur Golden Master Testing'*.
