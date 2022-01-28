@@ -23,6 +23,8 @@ Base de connaissance en markdown, dont l'intérêt principal est de créer une m
 ### Hugo
 Moteur de template supportant le html/le markdown. Ce site est realisé avec Hugo en md (et le theme [docport](https://docport.netlify.app/docport-theme/)). [Voir](https://gohugo.io/)
 
+---
+
 ## Audit / état des lieux
 ### libyear
 Petite lib calculant la *software dependency freshness*, soit le nombre d'années d'updates de retard sur toutes les dépendances cumulées. [Voir](https://libyear.com)

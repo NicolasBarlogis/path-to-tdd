@@ -33,6 +33,12 @@ Outil qui recense visuellement l’ensemble des activités, celles à valeur ajo
 
 ---
 
+## Modélisation
+### C4 model
+Découpage en 4 étages d'une architecture logicielle (Contexte, container, composants & code), décrivant l'archi de très haut niveau et en zoomant à chaque couche, jusqu'au code. Encourage la documentation as code, via de nombreux outils permettant le diagrams as code pour du C4. [Source](https://c4model.com/)
+
+---
+
 ## Testing
 ### Arrange - Act - Assert (AAA)
 Méthodologie d'organisation des tests unitaires. Correspond au given - when - then en BDD. *Arrange* on prépare les données prérequises. *Act* on fait le test en lui même. *Assert* réaliser le contrôle. [Source](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
