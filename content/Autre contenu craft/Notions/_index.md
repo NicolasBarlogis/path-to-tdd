@@ -51,6 +51,12 @@ Résultat d'une méthode consistant à déterminer les ensembles (partitions) de
 
 ---
 
+## Refactoring
+### Bubble Context
+Une méthode pour refactoriser une appli legacy vers du DDD. [Source](https://www.domainlanguage.com/ddd/surrounded-by-legacy-software/)
+
+---
+
 ## Modèles de maturité
 ### Capabilities Accelerate
 Étude ([livre](https://www.oreilly.com/library/view/accelerate/9781457191435/)) sur les entreprises efficaces en dévelopement, dont est sortie une liste de 24 *capabilities*, listant les points communs de ces entreprises efficaces. [Source](https://devopsefficiency.com/matrices.html)
