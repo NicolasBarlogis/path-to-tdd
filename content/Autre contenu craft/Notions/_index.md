@@ -40,6 +40,9 @@ Méthodologie d'organisation des tests unitaires. Correspond au given - when - t
 ### Test && commit || revert (TCR)
 Approche visant à améliorer la technique des développeurs (coder mieux, micro-incréments, etc...). Automatiquement ou non, à chaque fois que les tests sont joués, si ils passent le code est commité, sinon on revert et il faut recommencer [Source](https://blog.myagilepartner.fr/index.php/2019/02/18/tests-tcr-test-commit-revert/)
 
+### Partitions d'équivalence
+Résultat d'une méthode consistant à déterminer les ensembles (partitions) de valeurs d'entrée et/ou de sortie, de façon à faire moins de tests redondants et à ne pas oublier de cas. [Source](https://latavernedutesteur.fr/2018/09/06/techniques-basees-sur-les-specifications-1-7-les-partitions-dequivalence/)
+
 ---
 
 ## Modèles de maturité
