@@ -33,12 +33,27 @@ Outil qui recense visuellement l’ensemble des activités, celles à valeur ajo
 
 ---
 
+## Modélisation
+### C4 model
+Découpage en 4 étages d'une architecture logicielle (Contexte, container, composants & code), décrivant l'archi de très haut niveau et en zoomant à chaque couche, jusqu'au code. Encourage la documentation as code, via de nombreux outils permettant le diagrams as code pour du C4. [Source](https://c4model.com/)
+
+---
+
 ## Testing
 ### Arrange - Act - Assert (AAA)
 Méthodologie d'organisation des tests unitaires. Correspond au given - when - then en BDD. *Arrange* on prépare les données prérequises. *Act* on fait le test en lui même. *Assert* réaliser le contrôle. [Source](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
 
 ### Test && commit || revert (TCR)
 Approche visant à améliorer la technique des développeurs (coder mieux, micro-incréments, etc...). Automatiquement ou non, à chaque fois que les tests sont joués, si ils passent le code est commité, sinon on revert et il faut recommencer [Source](https://blog.myagilepartner.fr/index.php/2019/02/18/tests-tcr-test-commit-revert/)
+
+### Partitions d'équivalence
+Résultat d'une méthode consistant à déterminer les ensembles (partitions) de valeurs d'entrée et/ou de sortie, de façon à faire moins de tests redondants et à ne pas oublier de cas. [Source](https://latavernedutesteur.fr/2018/09/06/techniques-basees-sur-les-specifications-1-7-les-partitions-dequivalence/)
+
+---
+
+## Refactoring
+### Bubble Context
+Une méthode pour refactoriser une appli legacy vers du DDD. [Source](https://www.domainlanguage.com/ddd/surrounded-by-legacy-software/)
 
 ---
 

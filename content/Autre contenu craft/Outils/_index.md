@@ -11,8 +11,17 @@ Outil pour gérer le timming en mob-programming. [Voir](https://mobti.me/)
 ### Craft-Challenges
 Cartes sur des concepts liés au craftmanship, pouvant servir pour divers ateliers. [Voir](https://agilepartner.github.io/craft-challenges/)
 
+---
+
+## Documentation
 ### Promyze
 Outil permettant de facilement partager les bonnes pratiques au sein d'un équipe/entreprise. Intégration dans les IDE. [Voir](https://promyze.com/)
+
+### Obsidian
+Base de connaissance en markdown, dont l'intérêt principal est de créer une map des connaissances en les reliant (présentation sous forme de graphe). [Voir](https://obsidian.md/)
+
+### Hugo
+Moteur de template supportant le html/le markdown. Ce site est realisé avec Hugo en md (et le theme [docport](https://docport.netlify.app/docport-theme/)). [Voir](https://gohugo.io/)
 
 ---
 
